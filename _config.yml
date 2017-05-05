@@ -1,20 +1,21 @@
 # Site settings
-title: Devoll
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+title: GeekSpot, Top Ruby on Rails developers
+email: office@geekspot.co
+description: GeekSpot, Software House with Top Ruby on Rails developers.
+ Web design and full stack development process of highly scalable web apps.
+ CTO as a Service. Experienced Spree, ecommerce developers.
+ Tech stack - Ruby on Rails, Heroku, Postgress, Javascript, React, Vue.js, Elixir and Phoenix framework.
+
+baseurl: "https://geekspot.co" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: charliestark
+github_username:  cjharliestarkpl
 
 # Build settings
 markdown: kramdown
 
-# paginate: 3
-# paginate_path: "blog/page:num"
+paginate: 8
+paginate_path: "blog/page:num"
 gems:
   - jekyll-feed
 exclude:
