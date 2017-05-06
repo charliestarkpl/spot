@@ -6,10 +6,10 @@ description: GeekSpot, Software House with Top Ruby on Rails developers.
  CTO as a Service. Experienced Spree, ecommerce developers.
  Tech stack - Ruby on Rails, Heroku, Postgress, Javascript, React, Vue.js, Elixir and Phoenix framework.
 
-baseurl: "https://geekspot.co" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://geekspot.co" # the base hostname & protocol for your site
 twitter_username: charliestark
-github_username:  cjharliestarkpl
+github_username:  charliestarkpl
 
 # Build settings
 markdown: kramdown
@@ -21,3 +21,15 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/Gemfile"
+        - "/Gemfile.lock"
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
